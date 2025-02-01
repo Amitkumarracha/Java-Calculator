@@ -30,6 +30,7 @@ class Main {
                 case 6 : {
                     System.out.println("Array Operations:");
                     cal.handleArrayOperations();
+                    break;
                 }
                 case 0 :
                     System.out.println("Exiting Calculator...");
