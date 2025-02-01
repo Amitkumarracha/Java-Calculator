@@ -20,7 +20,7 @@ Java-Calculator/
 **How to Run:**
 
 **Clone this repository:**
-git clone https://github.com/your-username/Java-Calculator.git
+git clone https://github.com/Amitkumarracha/Java-Calculator.git
 
 **Navigate to the project folder:**
 cd Java-Calculator
