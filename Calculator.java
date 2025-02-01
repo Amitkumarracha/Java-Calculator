@@ -46,11 +46,16 @@ class Calculator {
     void fibonacci() {
         //UserInput ui = new UserInput();
         int n = ui.getNumber();
+        if (n < 1) {
+            System.out.println("Invalid input! Enter a number greater than 0.");
+            return;
+        }
+
         int first = 0, second = 1;
-        System.out.print("Fibonacci Sequence: " + first + " " + second + " ");
+        System.out.print("Fibonacci Sequence: " + first );
         for (int i = 2; i < n; i++) {
             int next = first + second;
-            System.out.print(next + " ");
+            System.out.print(" "+next);
             first = second;
             second = next;
         }
